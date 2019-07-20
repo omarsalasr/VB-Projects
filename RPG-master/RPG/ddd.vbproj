@@ -1,0 +1,238 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{BCEF3C25-5892-4C18-A1BE-4EDF71693A2B}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>RPG.My.MyApplication</StartupObject>
+    <RootNamespace>RPG</RootNamespace>
+    <AssemblyName>RPG</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>RPG.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>RPG.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="System.Threading.Tasks" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Castle.Designer.vb">
+      <DependentUpon>Castle.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Castle.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Chamber.Designer.vb">
+      <DependentUpon>Chamber.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Chamber.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forest 1.Designer.vb">
+      <DependentUpon>Forest 1.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forest 1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ForestL.Designer.vb">
+      <DependentUpon>ForestL.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ForestL.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.vb">
+      <DependentUpon>Form1.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="House.Designer.vb">
+      <DependentUpon>House.vb</DependentUpon>
+    </Compile>
+    <Compile Include="House.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HQ.Designer.vb">
+      <DependentUpon>HQ.vb</DependentUpon>
+    </Compile>
+    <Compile Include="HQ.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MtDrago.Designer.vb">
+      <DependentUpon>MtDrago.vb</DependentUpon>
+    </Compile>
+    <Compile Include="MtDrago.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MtDragoD.Designer.vb">
+      <DependentUpon>MtDragoD.vb</DependentUpon>
+    </Compile>
+    <Compile Include="MtDragoD.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MtDragoS.Designer.vb">
+      <DependentUpon>MtDragoS.vb</DependentUpon>
+    </Compile>
+    <Compile Include="MtDragoS.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Plaza.Designer.vb">
+      <DependentUpon>Plaza.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Plaza.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Fountain.Designer.vb">
+      <DependentUpon>Fountain.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Fountain.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Module1.vb" />
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="Shop Area.Designer.vb">
+      <DependentUpon>Shop Area.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Shop Area.vb">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Castle.resx">
+      <DependentUpon>Castle.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Chamber.resx">
+      <DependentUpon>Chamber.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forest 1.resx">
+      <DependentUpon>Forest 1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ForestL.resx">
+      <DependentUpon>ForestL.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="House.resx">
+      <DependentUpon>House.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HQ.resx">
+      <DependentUpon>HQ.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MtDrago.resx">
+      <DependentUpon>MtDrago.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MtDragoD.resx">
+      <DependentUpon>MtDragoD.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MtDragoS.resx">
+      <DependentUpon>MtDragoS.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Plaza.resx">
+      <DependentUpon>Plaza.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Fountain.resx">
+      <DependentUpon>Fountain.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Shop Area.resx">
+      <DependentUpon>Shop Area.vb</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="App.config">
+      <SubType>Designer</SubType>
+    </None>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

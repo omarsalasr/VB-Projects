@@ -1,0 +1,33 @@
+C:\Users\salasrodriguez1089\AppData\Local\Temporary Projects\Text Game\bin\Debug\Text Game.exe.config
+E:\4th Quarter Project\Text Game\Text Game\bin\Debug\Text Game.exe.config
+E:\4th Quarter Project\Text Game\Text Game\obj\Debug\Text_Game.Form1.resources
+E:\4th Quarter Project\Text Game\Text Game\obj\Debug\Text_Game.Form2.resources
+E:\4th Quarter Project\Text Game\Text Game\obj\Debug\Text_Game.Resources.resources
+E:\4th Quarter Project\Text Game\Text Game\obj\Debug\Text Game.vbproj.GenerateResource.Cache
+E:\4th Quarter Project\Text Game\Text Game\bin\Debug\Text Game.exe
+E:\4th Quarter Project\Text Game\Text Game\bin\Debug\Text Game.pdb
+E:\4th Quarter Project\Text Game\Text Game\bin\Debug\Text Game.xml
+E:\4th Quarter Project\Text Game\Text Game\obj\Debug\Text Game.exe
+E:\4th Quarter Project\Text Game\Text Game\obj\Debug\Text Game.xml
+E:\4th Quarter Project\Text Game\Text Game\obj\Debug\Text Game.pdb
+F:\4th Quarter Project\Text Game\Text Game\bin\Debug\Text Game.exe.config
+F:\4th Quarter Project\Text Game\Text Game\obj\Debug\Text Game.exe
+F:\4th Quarter Project\Text Game\Text Game\obj\Debug\Text Game.xml
+F:\4th Quarter Project\Text Game\Text Game\obj\Debug\Text Game.pdb
+E:\4th Quarter Project\Text Game\Text Game\obj\Debug\Text_Game.Form3.resources
+H:\1.m256\4th Quarter Project\Final\Text Game\Text Game\bin\Debug\Text Game.exe.config
+H:\1.m256\4th Quarter Project\Final\Text Game\Text Game\obj\Debug\Text Game.exe
+H:\1.m256\4th Quarter Project\Final\Text Game\Text Game\obj\Debug\Text Game.xml
+H:\1.m256\4th Quarter Project\Final\Text Game\Text Game\obj\Debug\Text Game.pdb
+H:\1.m256\4th Quarter Project\Final\Text Game\Text Game\bin\Debug\Text Game.exe
+H:\1.m256\4th Quarter Project\Final\Text Game\Text Game\bin\Debug\Text Game.pdb
+H:\1.m256\4th Quarter Project\Final\Text Game\Text Game\bin\Debug\Text Game.xml
+H:\1.m256\4th Quarter Project\Final\Text Game\Text Game\obj\Debug\Text_Game.Form1.resources
+H:\1.m256\4th Quarter Project\Final\Text Game\Text Game\obj\Debug\Text_Game.Form2.resources
+H:\1.m256\4th Quarter Project\Final\Text Game\Text Game\obj\Debug\Text_Game.Form3.resources
+H:\1.m256\4th Quarter Project\Final\Text Game\Text Game\obj\Debug\Text_Game.Resources.resources
+H:\1.m256\4th Quarter Project\Final\Text Game\Text Game\obj\Debug\Text Game.vbproj.GenerateResource.Cache
+L:\Salasrodriguez1089\1.m256\4th Quarter Project\Final\Text Game\Text Game\bin\Debug\Text Game.exe.config
+L:\Salasrodriguez1089\1.m256\4th Quarter Project\Final\Text Game\Text Game\obj\Debug\Text Game.exe
+L:\Salasrodriguez1089\1.m256\4th Quarter Project\Final\Text Game\Text Game\obj\Debug\Text Game.xml
+L:\Salasrodriguez1089\1.m256\4th Quarter Project\Final\Text Game\Text Game\obj\Debug\Text Game.pdb
